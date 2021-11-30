@@ -14,7 +14,7 @@ for i in range(len(text)):
         lt1.append(text[i][0])
         lt2.append(960 - text[i][1])
 
-plt.scatter(lt1, 2)
+plt.scatter(lt1, lt2)
 plt.show()
 plt.close()
 data_f.close()
